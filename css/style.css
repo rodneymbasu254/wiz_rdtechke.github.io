@@ -1,0 +1,200 @@
+body {
+  background-color: #ddd6f3;
+  font-family: Sans-Serif;
+  padding: 0;
+  margin: 0;
+}
+
+.panel {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  background-color: cyan;
+  width: 100%;
+  height: 30px;
+}
+
+.sidebar-toggle {
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.sidebar {
+  width: 250px;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed;
+  border-radius: 25px;
+  left: -250px;
+  transition: left 0.3s;
+}
+
+.sidebar.active {
+  left: 0;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.sidebar li a:hover {
+  background-color: #ddd;
+}
+
+.contact {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-family: Courier New;
+  padding: 20px;
+}
+
+.contact h1{
+  color: blue;
+  border-bottom: 1px solid red;
+  border-bottom-left-radius: 10px;
+  border-width: 2px;
+}
+
+.checkme{
+  border: 1px solid green;
+}
+
+.button_2{
+  border: 2px solid green;
+  border-radius: 12px;
+  height: 40px;
+  width: 80px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button_2 hover{
+  background-color: #ddd;
+}
+
+.short_text {
+  width: 200px;
+  height: 400px;
+}
+
+.short_text textarea{
+  width: 250px;
+  height: 200px;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+.email {
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+.build {
+  margin-block: 7px;
+  margin-left: 10%;
+  margin-top: 35px;
+  font-family: Monospace;
+  margin-right: 10px;
+  border-radius: 20px;
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid cyan;
+}
+
+.build img{
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.button_1{
+  border: 2px solid blue;
+  height: 40px;
+  width: 80px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.button_1 hover{
+  background-color: #ddd;
+}
+
+.topics{
+  border-bottom-color: yellow;
+  margin-left: 10px;
+  font-family: Consolas;
+}
+
+.topics h2{
+  margin-left: 30px;
+  width: 200px;
+  text-align: center;
+  font-family: Monospace;
+  border: 1px solid grey;
+  border-right-color: cyan;
+  border-bottom-color: red;
+  border-width: 3px;
+  border-radius: 30px;
+  
+} 
+
+.info ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.info li {
+  padding: 5px;
+}
+
+.info li a{
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.cookie-prompt {
+    position: fixed;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    transition: bottom 0.5s ease-in-out;
+}
+
+#acceptCookies{
+  border: 1px solid blue;
+  width: 80px;
+  height: 40px;
+  font-family: Arial Sans-Serif;
+}
+
+.cookie-prompt.show {
+    bottom: 0;
+}
+
+footer {
+  background-color: #B2B2B2;
+  bottom: 0px;
+  border-radius: 10px;
+}
+
+#container{
+  margin-top: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+}
